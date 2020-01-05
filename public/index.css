@@ -1,0 +1,267 @@
+body
+{
+	background-color: white;
+}
+#textCont
+{
+	position: absolute;
+	left: 22%;
+	top:40%;
+	width:45.5%;
+	height:46%;
+	font-family: Arial;
+  overflow: scroll;
+  text-overflow: ellipsis;
+
+}
+#textName:hover{
+color: #85144b;
+}
+#textName
+{
+	position: absolute;
+	left: 22%;
+	top:26%;
+	width:23%;
+	height:10%;
+	text-align: center;
+	font-size: 150%;
+  overflow: scroll;
+  text-overflow: ellipsis;
+  
+	
+		
+}
+#myContainer
+{
+	position:absolute;
+	left:0%;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color: red;
+	background: url("bkg3.jpg");
+	  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#loginMail
+{
+	position:absolute;
+	left: 39%;
+	top: 37%;
+	width:20%;
+	height:4%;
+	font-size: 150%;
+		border: none;
+		padding-left:6px;
+		padding-right:6px;
+			border-radius: 36px;
+}
+#loginPass
+{
+	position:absolute;
+	left: 39%;
+	top: 45%;
+	width:20%;
+	height:4%;
+	font-size: 140%;
+		border: none;
+		padding-left:6px;
+		padding-right:6px;
+			border-radius: 36px;
+}
+#mySubmit
+{
+	position:absolute;
+	left: 43%;
+	top: 55%;
+	width:12%;
+	height:5%;
+	background-color: white;
+	border-color: white;
+	font-size:1.1vmax;
+	transition: 0.6s;
+	color: #111111;
+	border-radius: 36px;
+}
+#mySubmit:hover
+{
+	background-color: #111111;
+	color: white;
+	border-color:#111111;
+	transition: 0.6s;
+}
+#loginMail:hover
+{
+	background-color: #54ff82;
+}
+#loginPass:hover
+{
+	background-color: #54ff82;
+}
+    #myP{
+		-webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+        -webkit-animation: color-change 4s infinite;
+        -moz-animation: color-change 4s infinite;
+        -o-animation: color-change 4s infinite;
+        -ms-animation: color-change 4s infinite;
+        animation: color-change 4s infinite;
+		position: absolute;
+		top:2%;
+		left:45%;
+		font-size:3vw;
+		font-family: Candara;
+		font-weight:bold;
+		font-style: italic;
+    }
+
+    @-webkit-keyframes color-change {
+        0% { color: white; }
+        33% { color: #54ff82; }
+        66% { color: #33FF33; }
+		100% { color: white; }
+    }
+    @-moz-keyframes color-change {
+        0% { color: white; }
+        33% { color: #54ff82; }
+        66% { color: #33FF33; }
+		100% { color: white; }
+    }
+    @-ms-keyframes color-change {
+        0% { color: white; }
+        33% { color: #54ff82; }
+        66% { color: #33FF33; }
+		100% { color: white; }
+    }
+    @-o-keyframes color-change {
+        0% { color: white; }
+        33% { color: #54ff82; }
+        66% { color: #33FF33; }
+		100% { color: white; }
+    }
+    @keyframes color-change {
+        0% { color: white; }
+        33% { color: #2ECC40; }
+        66% { color: #33FF33; }
+		100% { color: white; }
+    }
+	
+	html, body {
+  margin: 0;
+  padding: 0;
+}  
+#myContainer2
+{
+	position:absolute;
+	left:0%;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color: red;
+	background: url("bkg_1.jpg");
+	  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#textCont::-webkit-scrollbar {
+  display: none;
+}
+#textName::-webkit-scrollbar {
+  display: none;
+}
+button
+{
+	background-color: transparent;
+	border-color: #001f3f;
+	color: black;
+	width:5%;
+	height:5%;
+	position: absolute;
+	font-size:0.9vw;
+}
+button:focus {outline:0;}
+#prevBtn
+{
+	left:22%;
+	top:90%;
+	border-radius: 35px 0 0 35px;
+	transition: 0.6s;
+	border-right:0;
+	background-color:transparent;
+	color:black;
+}
+#nextBtn
+{
+	left:27%;
+	top:90%;
+		border-radius: 0 35px 35px 0;
+		transition: 0.6s;
+		background-color:transparent;
+}
+#prevBtn:hover{
+background-color:#001f3f;
+color:white;
+transition: 0.6s;
+}
+#nextBtn:hover{
+background-color:#001f3f;
+color:white;
+transition: 0.6s;
+}
+#delBtn:hover{
+background-color:#001f3f;
+color:white;
+transition: 0.6s;
+}
+#updtBtn:hover{
+background-color:#001f3f;
+color:white;
+transition: 0.6s;
+
+}
+#delBtn
+{
+	left:63%;
+	top:90%;
+	border-radius: 35px 35px 35px 35px;
+	transition: 0.6s;	
+}
+#updtBtn
+{
+		left:45%;
+	top:90%;
+	border-radius: 35px 35px 35px 35px;
+	transition: 0.6s;
+}
+#logOutBtn
+{
+	transition:0.6s;
+	border-left:0;
+	border-top:0;
+	border-radius:0 0 20px 0;
+}
+#logOutBtn:hover
+{
+	background-color:#001f3f;
+color:white;
+transition: 0.6s;
+width:9%;
+height:9%;
+border-radius:0 0 30px 0;
+}
+#dwnBtn
+{
+			left:51%;
+	top:90%;
+	border-radius: 35px 35px 35px 35px;
+	transition: 0.6s;
+}
+#dwnBtn:hover{
+background-color:#001f3f;
+color:white;
+transition: 0.6s;
+
+}
+div:focus {outline:0;}

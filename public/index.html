@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+
+    <!-- update the version number as needed -->
+    <script   src="/__/firebase/7.6.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script   src="/__/firebase/7.6.1/firebase-auth.js"></script>
+    <script   src="/__/firebase/7.6.1/firebase-database.js"></script>
+    <script   src="/__/firebase/7.6.1/firebase-messaging.js"></script>
+    <script   src="/__/firebase/7.6.1/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script   src="/__/firebase/init.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+<div id="myContainer">
+<p id="myP">Strive <i class="fa fa-leaf"></i> </p>
+<form id="myForm" name="myForm" action="" onsubmit="" method="post">
+  <input id="loginMail" type="text" name="fmail" placeholder="E-mail">
+  <input id="loginPass" type="password" name="fpass" placeholder="Password">
+  <input id="mySubmit" type="submit" value="Log in">
+</form>
+</div>
+<div id="myContainer2">
+<button id="logOutBtn" onclick="myLogOut()">Log out</button>
+<div id="textCont" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true">
+</div>
+<div id="textName">
+</div>
+<button id="prevBtn" onclick="goBack()">Prev</button>
+<button id="nextBtn" onclick="goFwd()">Next</button>
+<button id="delBtn" onclick="delData()">Delete</button>
+<button id="updtBtn" onclick="updateData()">Update</button>
+  <a href="" id="download">
+  <button id="dwnBtn">Download</button>
+  </a>
+</div>
+
+    <script   src="app.js">
+	
+    </script>
+	<script></script>
+  </body>
+</html>
